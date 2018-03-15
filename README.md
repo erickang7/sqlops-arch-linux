@@ -1,1 +1,0 @@
-# sqlops-arch-linux
