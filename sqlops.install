@@ -1,0 +1,9 @@
+post_install() {
+  echo -n "Creating sqlops symbolic link..."
+  ln -s /opt/sqlops-linux-x64/bin/sqlops /usr/bin/sqlops
+  echo "done."
+}
+
+post_remove() {
+  rm -f /usr/bin/sqlops
+}
